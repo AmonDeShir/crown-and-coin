@@ -1,7 +1,6 @@
-﻿namespace _heroes.Systems.Building
+﻿using UnityEngine;
+
+public class Building : MonoBehaviour
 {
-    public class Building
-    {
-        
-    }
+    
 }

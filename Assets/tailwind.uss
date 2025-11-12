@@ -1,0 +1,98 @@
+.root .fixed {
+    position: fixed
+}
+.root .absolute {
+    position: absolute
+}
+.root .relative {
+    position: relative
+}
+.root .bottom-2 {
+    bottom: 8px
+}
+.root .left-0 {
+    left: 0px
+}
+.root .top-0 {
+    top: 0px
+}
+.root .mx-_lb_1_d_5px_rb_ {
+    margin-left: 1.5px;
+    margin-right: 1.5px
+}
+.root .my-_lb_1px_rb_ {
+    margin-top: 1px;
+    margin-bottom: 1px
+}
+.root .flex {
+    display: flex
+}
+.root .h-_lb_142px_rb_ {
+    height: 142px
+}
+.root .h-_lb_16px_rb_ {
+    height: 16px
+}
+.root .h-_lb_20px_rb_ {
+    height: 20px
+}
+.root .h-full {
+    height: 100%
+}
+.root .min-h-_lb_200px_rb_ {
+    min-height: 200px
+}
+.root .w-_lb_36px_rb_ {
+    width: 36px
+}
+.root .w-_lb_850px_rb_ {
+    width: 850px
+}
+.root .w-full {
+    width: 100%
+}
+.root .flex-row {
+    flex-direction: row
+}
+.root .flex-col {
+    flex-direction: column
+}
+.root .items-center {
+    align-items: center
+}
+.root .justify-center {
+    justify-content: center
+}
+.root .justify-between {
+    justify-content: space-between
+}
+.root .overflow-hidden {
+    overflow: hidden
+}
+.root .overflow-visible {
+    overflow: visible
+}
+.root .border {
+    border-width: 1px
+}
+.root .border-2 {
+    border-width: 2px
+}
+.root .border-red-500 {
+    border-color: #ef4444
+}
+.root .bg-main {
+    background-color: #6B0D05
+}
+.root .bg-red-500 {
+    background-color: #ef4444
+}
+.root .text-sm {
+    font-size: 14px
+}
+.root .text-xs {
+    font-size: 12px
+}
+.root .text-secondary {
+    color: #FDDB1D
+}

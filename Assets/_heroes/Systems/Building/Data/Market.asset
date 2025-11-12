@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Market
   m_EditorClassIdentifier: Assembly-CSharp::BuildingData
   m_name: Market
-  m_hp: 500
   m_cost: 300
-  m_prefab: {fileID: 919132149155446097, guid: 294df85667cefd8499b41ef9c1059375, type: 3}
+  m_health: 0
+  m_startHealth: 50
+  m_HealthRegeneration: 10
+  m_prefab: {fileID: 7453210550578639308, guid: 2940fc5af0d803946ab4a8b3573d4455, type: 3}

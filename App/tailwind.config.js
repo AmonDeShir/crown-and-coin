@@ -12,6 +12,7 @@ module.exports = {
         secondaryDark: "#D7BA17",
         active: "#00B6D7",
         tertiary: "#E8E0B2",
+        tertiaryPanels: "#AFA089",
         tertiaryLight: "#FFF7C6",
         textMain: "#6B0D05",
         textInverse: "#FFFFFF",

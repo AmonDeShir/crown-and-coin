@@ -27,7 +27,12 @@ public class BuildMode : MonoBehaviour
 
         if (Physics.Raycast(ray, out var hit, 100, LayerMask.GetMask("Terrain")))
         {
-            Instantiate(Selected.Prefab, hit.point, Selected.Prefab.transform.rotation);
+            SpawnBuilding(hit.point);
         }
+    }
+
+    private void SpawnBuilding(Vector3 position)
+    {
+        Instantiate(Selected.Prefab, position, Selected.Prefab.transform.rotation);
     }
 }

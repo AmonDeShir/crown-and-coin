@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: House
   m_EditorClassIdentifier: Assembly-CSharp::BuildingData
   m_name: House
-  m_hp: 0
   m_cost: 0
-  m_prefab: {fileID: 919132149155446097, guid: f9708915014875846ab9f3191a6a9ce8, type: 3}
+  m_health: 0
+  m_startHealth: 50
+  m_HealthRegeneration: 10
+  m_prefab: {fileID: 5465465444092654911, guid: e03fd4d862a415c42859df0b088748aa, type: 3}

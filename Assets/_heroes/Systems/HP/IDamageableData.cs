@@ -1,6 +1,6 @@
-﻿public interface IDamageable
+﻿public interface IDamageableData
 {
-    void TakeDamage(float amount);
-    float CurrentHp { get; }
-    bool IsDead { get; }
+    float MaxHealth { get; }
+    float HealthRegeneration { get; }
+    float SpawnHealth { get; }
 }
