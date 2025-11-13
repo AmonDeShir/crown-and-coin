@@ -1,6 +1,6 @@
 import { h } from "onejs-preact";
 import { useEffect, useRef, useState } from "onejs-preact/hooks";
-import { RenderTexture, Resources } from "UnityEngine";
+import { RenderTexture, Resources, Screen } from "UnityEngine";
 import { Background, BackgroundRepeat, Repeat, StyleBackground, StyleBackgroundRepeat } from "UnityEngine/UIElements";
 
 const SCREEN_TEXTURE = Resources.Load("CameraTexture") as RenderTexture;
@@ -31,8 +31,8 @@ export function Blur({ children, blur = 5, color = "white", opacity = 0.1 }: Pro
     const bound = parentImage.worldBound;
 
     setPos({
-      w: 1920 / image.scaledPixelsPerPoint,
-      h: 1080 / image.scaledPixelsPerPoint,
+      w: Screen.width / image.scaledPixelsPerPoint,
+      h: Screen.height / image.scaledPixelsPerPoint,
       l: -Math.round(bound.x),
       t: -Math.round(bound.y),
     });

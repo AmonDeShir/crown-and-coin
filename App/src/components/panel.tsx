@@ -10,9 +10,9 @@ type Props = {
 
 export function Panel({title, children}: Props) {
   return (
-    <div class="flex-col min-h-[200px]">
+    <div class='w-full h-full'>
       <Bar title={title} details={6} />
-      <Blur blur={10}>
+      <Blur blur={15} color='#AFA089' opacity={0.5}>
         <div class="w-full h-full text-xs">
           {children}
         </div>

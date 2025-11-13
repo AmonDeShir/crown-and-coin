@@ -2,14 +2,19 @@
 console.log("[index.tsx]: OneJS is good to go")
 
 import { h, render } from 'preact'
-import { useState, useEffect, useMemo, useRef } from 'preact/hooks'
-import { Bar } from './src/components/bar'
 import { Panel } from './src/components/panel'
+import { Heroes } from './src/components/heroes'
+import { MiniMap } from './src/components/MiniMap'
  
 function App() {
   return (
-    <div class="w-full h-full justify-center items-center">
-      <div class="absolute w-full h-[142px] flex flex-row justify-center bottom-2">
+    <div class="w-full h-full flex justify-between p-1 pb-2">
+      <div class="w-full flex flex-row justify-between">
+        <Heroes />
+        <MiniMap />
+      </div>
+
+      <div class="w-full h-[142px] flex flex-row justify-center">
         <div class="w-[850px]">
           <Panel title='Budynki'>
             {"Example text"}
